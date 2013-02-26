@@ -30,7 +30,7 @@ Data is divided in the hierarchical structure specified in the HS handbook(21 Se
        
        TEXTAREA.name="new-rule"
   
-  *rule-search/get)* : Applied to a FORM tag. A link template to search of all the rules. The element will be set to FORM.method="get" and will contain the following descendant elements:
+  *rule-search(get)* : Applied to a FORM tag. A link template to search of all the rules. The element will be set to FORM.method="get" and will contain the following descendant elements:
   
       INPUT[text].name="search"
       
@@ -41,7 +41,7 @@ Data is divided in the hierarchical structure specified in the HS handbook(21 Se
 ### Name attribute values:
   *rule* : Applied to TEXTAREA element. The rule to post(for the authorized user).
   
-  *search* : Applied to an INPUT[text]. The search/get value to use when searching rules(when applied to FORM.class="rule-search").
+  *search* : Applied to an INPUT[text]. The search(get) value to use when searching rules(when applied to FORM.class="rule-search").
 ### Rel attribute values:
   *rule* : Applied to an anchor tag. A reference to a rule representation.
  
@@ -49,7 +49,7 @@ Data is divided in the hierarchical structure specified in the HS handbook(21 Se
  
   *rule-all* : Applied to an anchor tag. A reference to a list representaiton fo all the rules in the system.
  
-  *rule-search/get* : Applied to an anchor tag. A reference to rule-search/get FORM.
+  *rule-search(get)* : Applied to an anchor tag. A reference to rule-search(get) FORM.
  
 
   
