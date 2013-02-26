@@ -30,7 +30,7 @@ Data is divided in the hierarchical structure specified in the HS handbook(21 Se
        
        TEXTAREA.name="new-rule"
   
-  *rule-search/get)* : Applised to a FORM tag. A link template to search of all the rules. The element will be set to FORM.method="get" and will contain the following descendant elements:
+  *rule-search/get)* : Applied to a FORM tag. A link template to search of all the rules. The element will be set to FORM.method="get" and will contain the following descendant elements:
   
       INPUT[text].name="search"
       
