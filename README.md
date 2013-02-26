@@ -6,8 +6,8 @@ Data is divided in the hierarchical structure specified in the HS handbook(21 Se
 
   - **all-rules.html** shows a list of all the rules in the handbook,listed by the hierarchical structure. It is at the upper most level of the website, and it will support GET, POST, HEAD, and OPTIONS as I speficied in the previous assignment.
   - **rule.html** shows a specific trade product's path from the upper most level of the rules in the HS handbook to identifying the product's TARIC-code. And this page support GET, POST(Authentification needed), and DELETE(Authentification needed).
-  - **rule-form.html** represents a user's posting of a rule.
-  - **find-rule.html** shows how the matching rule to the user's query is presented. This page supports GET.
+  - **rule-form-post.html** represents a user's posting of a rule.
+  - **rule-form-search.html** shows how the matching rule to the user's query is presented. This page supports GET.
 
 ## Attribute values: Id, Class, Name, and Rel
 
